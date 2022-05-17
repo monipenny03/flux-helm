@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  cnf-simple:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-05-17T13:04:48.620175412Z"
+    description: cnf-simple
+    digest: 02825e1b8841ca579eca0860f6532f05b5eddbb38fc00594337abe03e562b952
+    name: cnf-simple
+    urls:
+    - https://monipenny03.github.io/flux-helm/simple-chart.tgz
+    version: 1.0.0
+generated: "2022-05-17T13:04:48.619143421Z"
