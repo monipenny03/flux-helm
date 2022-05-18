@@ -1,9 +1,146 @@
 apiVersion: v1
 entries:
+  free5gc-amf:
+  - apiVersion: v2
+    appVersion: v3.0.6
+    created: "2022-05-18T16:15:26.196621121Z"
+    description: A Helm chart to deploy the Free5GC AMF
+    digest: 5ea80cecdd8edc6018fafde078568fcbfab9374a47542abea2050bdfa4da751f
+    icon: https://camo.githubusercontent.com/915dcf8299b3d2bfe2b2693c5401916cb31e31fb690a73e7da327808000efa37/68747470733a2f2f666f72756d2e667265653567632e6f72672f75706c6f6164732f64656661756c742f6f726967696e616c2f31582f333234363935626663363438316264353536633131303138663238333430383663663565633634352e706e67
+    maintainers:
+    - email: abderaouf.khichane@orange.com
+      name: Abderaouf KHICHANE
+    - email: ilhem.fajjari@orange.com
+      name: Ilhem FAJJARI
+    - email: ayoub.bousselmi@orange.com
+      name: Ayoub BOUSSELMI
+    name: free5gc-amf
+    type: application
+    urls:
+    - https://monipenny03.github.io/flux-helm/free5gc-amf.tgz
+    version: 0.1.1
+  free5gc-ausf:
+  - apiVersion: v2
+    appVersion: v3.0.6
+    created: "2022-05-18T16:15:26.199464596Z"
+    description: A Helm chart to deploy the Free5GC AUSF
+    digest: a33cd473b337bf74605e34250585ed4660bdcf80590207ad3a1d8fa8fdbf1381
+    icon: https://camo.githubusercontent.com/915dcf8299b3d2bfe2b2693c5401916cb31e31fb690a73e7da327808000efa37/68747470733a2f2f666f72756d2e667265653567632e6f72672f75706c6f6164732f64656661756c742f6f726967696e616c2f31582f333234363935626663363438316264353536633131303138663238333430383663663565633634352e706e67
+    maintainers:
+    - email: abderaouf.khichane@orange.com
+      name: Abderaouf KHICHANE
+    - email: ilhem.fajjari@orange.com
+      name: Ilhem FAJJARI
+    - email: ayoub.bousselmi@orange.com
+      name: Ayoub BOUSSELMI
+    name: free5gc-ausf
+    type: application
+    urls:
+    - https://monipenny03.github.io/flux-helm/free5gc-ausf.tgz
+    version: 0.1.1
+  free5gc-n3iwf:
+  - apiVersion: v2
+    appVersion: v3.0.6
+    created: "2022-05-18T16:15:26.202328925Z"
+    description: A Helm chart to deploy the Free5GC N3IWF
+    digest: b729e26ba135241f6404d6d3356325dcb03120f21c1f54571e11ddf4e75d6e36
+    icon: https://camo.githubusercontent.com/915dcf8299b3d2bfe2b2693c5401916cb31e31fb690a73e7da327808000efa37/68747470733a2f2f666f72756d2e667265653567632e6f72672f75706c6f6164732f64656661756c742f6f726967696e616c2f31582f333234363935626663363438316264353536633131303138663238333430383663663565633634352e706e67
+    maintainers:
+    - email: abderaouf.khichane@orange.com
+      name: Abderaouf KHICHANE
+    - email: ilhem.fajjari@orange.com
+      name: Ilhem FAJJARI
+    - email: ayoub.bousselmi@orange.com
+      name: Ayoub BOUSSELMI
+    name: free5gc-n3iwf
+    type: application
+    urls:
+    - https://monipenny03.github.io/flux-helm/free5gc-n3iwf.tgz
+    version: 0.1.1
+  free5gc-nrf:
+  - apiVersion: v2
+    appVersion: v3.0.6
+    created: "2022-05-18T16:15:26.218778977Z"
+    dependencies:
+    - condition: db.enabled
+      name: mongodb
+      repository: ""
+    description: A Helm chart to deploy the Free5GC NRF
+    digest: cea62e409c4858a31c663dbbce62309daa0efb6c3392ab2df740bab079442979
+    icon: https://camo.githubusercontent.com/915dcf8299b3d2bfe2b2693c5401916cb31e31fb690a73e7da327808000efa37/68747470733a2f2f666f72756d2e667265653567632e6f72672f75706c6f6164732f64656661756c742f6f726967696e616c2f31582f333234363935626663363438316264353536633131303138663238333430383663663565633634352e706e67
+    maintainers:
+    - email: abderaouf.khichane@orange.com
+      name: Abderaouf KHICHANE
+    - email: ilhem.fajjari@orange.com
+      name: Ilhem FAJJARI
+    - email: ayoub.bousselmi@orange.com
+      name: Ayoub BOUSSELMI
+    name: free5gc-nrf
+    type: application
+    urls:
+    - https://monipenny03.github.io/flux-helm/free5gc-nrf.tgz
+    version: 0.1.1
+  free5gc-nssf:
+  - apiVersion: v2
+    appVersion: v3.0.6
+    created: "2022-05-18T16:15:26.221448827Z"
+    description: A Helm chart to deploy the Free5GC NSSF
+    digest: 0fa3bed6229da0b3349b704bba052504f83e2593932a7d438223df61ed8686ca
+    icon: https://camo.githubusercontent.com/915dcf8299b3d2bfe2b2693c5401916cb31e31fb690a73e7da327808000efa37/68747470733a2f2f666f72756d2e667265653567632e6f72672f75706c6f6164732f64656661756c742f6f726967696e616c2f31582f333234363935626663363438316264353536633131303138663238333430383663663565633634352e706e67
+    maintainers:
+    - email: abderaouf.khichane@orange.com
+      name: Abderaouf KHICHANE
+    - email: ilhem.fajjari@orange.com
+      name: Ilhem FAJJARI
+    - email: ayoub.bousselmi@orange.com
+      name: Ayoub BOUSSELMI
+    name: free5gc-nssf
+    type: application
+    urls:
+    - https://monipenny03.github.io/flux-helm/free5gc-nssf.tgz
+    version: 0.1.1
+  free5gc-pcf:
+  - apiVersion: v2
+    appVersion: v3.0.6
+    created: "2022-05-18T16:15:26.223640031Z"
+    description: A Helm chart to deploy the Free5GC PCF
+    digest: 974ce337cc6d76111dbefad31362705c452e7fbcf881a67f5af9ff26999e2c55
+    icon: https://camo.githubusercontent.com/915dcf8299b3d2bfe2b2693c5401916cb31e31fb690a73e7da327808000efa37/68747470733a2f2f666f72756d2e667265653567632e6f72672f75706c6f6164732f64656661756c742f6f726967696e616c2f31582f333234363935626663363438316264353536633131303138663238333430383663663565633634352e706e67
+    maintainers:
+    - email: abderaouf.khichane@orange.com
+      name: Abderaouf KHICHANE
+    - email: ilhem.fajjari@orange.com
+      name: Ilhem FAJJARI
+    - email: ayoub.bousselmi@orange.com
+      name: Ayoub BOUSSELMI
+    name: free5gc-pcf
+    type: application
+    urls:
+    - https://monipenny03.github.io/flux-helm/free5gc-pcf.tgz
+    version: 0.1.1
+  free5gc-smf:
+  - apiVersion: v2
+    appVersion: v3.0.6
+    created: "2022-05-18T16:15:26.226609199Z"
+    description: A Helm chart to deploy the Free5GC SMF
+    digest: 611c9e9bcfa39eb15411585934eb3334e4e7ac3240bdcf0a4a97f3f9d3f6b880
+    icon: https://camo.githubusercontent.com/915dcf8299b3d2bfe2b2693c5401916cb31e31fb690a73e7da327808000efa37/68747470733a2f2f666f72756d2e667265653567632e6f72672f75706c6f6164732f64656661756c742f6f726967696e616c2f31582f333234363935626663363438316264353536633131303138663238333430383663663565633634352e706e67
+    maintainers:
+    - email: abderaouf.khichane@orange.com
+      name: Abderaouf KHICHANE
+    - email: ilhem.fajjari@orange.com
+      name: Ilhem FAJJARI
+    - email: ayoub.bousselmi@orange.com
+      name: Ayoub BOUSSELMI
+    name: free5gc-smf
+    type: application
+    urls:
+    - https://monipenny03.github.io/flux-helm/free5gc-smf.tgz
+    version: 0.1.2
   free5gc-udm:
   - apiVersion: v2
     appVersion: v3.0.6
-    created: "2022-05-18T15:49:08.277188105Z"
+    created: "2022-05-18T16:15:26.229054953Z"
     description: A Helm chart to deploy the Free5GC UDM
     digest: 3387dbc519777cf0fac2c64a989110116a316ef573fa12301f85fedffa688135
     icon: https://camo.githubusercontent.com/915dcf8299b3d2bfe2b2693c5401916cb31e31fb690a73e7da327808000efa37/68747470733a2f2f666f72756d2e667265653567632e6f72672f75706c6f6164732f64656661756c742f6f726967696e616c2f31582f333234363935626663363438316264353536633131303138663238333430383663663565633634352e706e67
@@ -19,12 +156,77 @@ entries:
     urls:
     - https://monipenny03.github.io/flux-helm/free5gc-udm.tgz
     version: 0.1.1
+  free5gc-udr:
+  - apiVersion: v2
+    appVersion: v3.0.6
+    created: "2022-05-18T16:15:26.248399349Z"
+    dependencies:
+    - condition: db.enabled
+      name: mongodb
+      repository: ""
+    description: A Helm chart to deploy the Free5GC UDR
+    digest: 9710593d13405d89111b2713804a6e83f6c09cb8f4be60347c77fbd2984d5e16
+    icon: https://camo.githubusercontent.com/915dcf8299b3d2bfe2b2693c5401916cb31e31fb690a73e7da327808000efa37/68747470733a2f2f666f72756d2e667265653567632e6f72672f75706c6f6164732f64656661756c742f6f726967696e616c2f31582f333234363935626663363438316264353536633131303138663238333430383663663565633634352e706e67
+    maintainers:
+    - email: abderaouf.khichane@orange.com
+      name: Abderaouf KHICHANE
+    - email: ilhem.fajjari@orange.com
+      name: Ilhem FAJJARI
+    - email: ayoub.bousselmi@orange.com
+      name: Ayoub BOUSSELMI
+    name: free5gc-udr
+    type: application
+    urls:
+    - https://monipenny03.github.io/flux-helm/free5gc-udr.tgz
+    version: 0.1.1
+  free5gc-upf:
+  - apiVersion: v2
+    appVersion: v3.0.6
+    created: "2022-05-18T16:15:26.257954159Z"
+    description: A Helm chart to deploy the Free5GC User Plane
+    digest: ee19ecf8356923244b24091721f0ef788c31bf95225ce1e2ca9c705a5b2dbb03
+    icon: https://camo.githubusercontent.com/915dcf8299b3d2bfe2b2693c5401916cb31e31fb690a73e7da327808000efa37/68747470733a2f2f666f72756d2e667265653567632e6f72672f75706c6f6164732f64656661756c742f6f726967696e616c2f31582f333234363935626663363438316264353536633131303138663238333430383663663565633634352e706e67
+    maintainers:
+    - email: abderaouf.khichane@orange.com
+      name: Abderaouf KHICHANE
+    - email: ilhem.fajjari@orange.com
+      name: Ilhem FAJJARI
+    - email: ayoub.bousselmi@orange.com
+      name: Ayoub BOUSSELMI
+    name: free5gc-upf
+    type: application
+    urls:
+    - https://monipenny03.github.io/flux-helm/free5gc-upf.tgz
+    version: 0.1.2
+  free5gc-webui:
+  - apiVersion: v2
+    appVersion: v3.0.6
+    created: "2022-05-18T16:15:26.277925734Z"
+    dependencies:
+    - condition: db.enabled
+      name: mongodb
+      repository: ""
+    description: A Helm chart to deploy the Free5GC WEBUI
+    digest: afe845fbdad2c67446dec693fa49edd5642fedd4d43429cce749534dbdf7fe49
+    icon: https://camo.githubusercontent.com/915dcf8299b3d2bfe2b2693c5401916cb31e31fb690a73e7da327808000efa37/68747470733a2f2f666f72756d2e667265653567632e6f72672f75706c6f6164732f64656661756c742f6f726967696e616c2f31582f333234363935626663363438316264353536633131303138663238333430383663663565633634352e706e67
+    maintainers:
+    - email: abderaouf.khichane@orange.com
+      name: Abderaouf KHICHANE
+    - email: ilhem.fajjari@orange.com
+      name: Ilhem FAJJARI
+    - email: ayoub.bousselmi@orange.com
+      name: Ayoub BOUSSELMI
+    name: free5gc-webui
+    type: application
+    urls:
+    - https://monipenny03.github.io/flux-helm/free5gc-webui.tgz
+    version: 0.1.1
   mongodb:
   - annotations:
       category: Database
     apiVersion: v2
     appVersion: 4.4.4
-    created: "2022-05-18T15:49:08.288364668Z"
+    created: "2022-05-18T16:15:26.304022139Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -54,4 +256,4 @@ entries:
     urls:
     - https://monipenny03.github.io/flux-helm/mongodb-10.7.0.tgz
     version: 10.7.0
-generated: "2022-05-18T15:49:08.273800915Z"
+generated: "2022-05-18T16:15:26.192824152Z"
