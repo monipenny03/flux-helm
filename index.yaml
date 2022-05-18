@@ -1,0 +1,57 @@
+apiVersion: v1
+entries:
+  free5gc-udm:
+  - apiVersion: v2
+    appVersion: v3.0.6
+    created: "2022-05-18T15:49:08.277188105Z"
+    description: A Helm chart to deploy the Free5GC UDM
+    digest: 3387dbc519777cf0fac2c64a989110116a316ef573fa12301f85fedffa688135
+    icon: https://camo.githubusercontent.com/915dcf8299b3d2bfe2b2693c5401916cb31e31fb690a73e7da327808000efa37/68747470733a2f2f666f72756d2e667265653567632e6f72672f75706c6f6164732f64656661756c742f6f726967696e616c2f31582f333234363935626663363438316264353536633131303138663238333430383663663565633634352e706e67
+    maintainers:
+    - email: abderaouf.khichane@orange.com
+      name: Abderaouf KHICHANE
+    - email: ilhem.fajjari@orange.com
+      name: Ilhem FAJJARI
+    - email: ayoub.bousselmi@orange.com
+      name: Ayoub BOUSSELMI
+    name: free5gc-udm
+    type: application
+    urls:
+    - https://monipenny03.github.io/flux-helm/free5gc-udm.tgz
+    version: 0.1.1
+  mongodb:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 4.4.4
+    created: "2022-05-18T15:49:08.288364668Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: NoSQL document-oriented database that stores JSON-like documents
+      with dynamic schemas, simplifying the integration of data in content-driven
+      applications.
+    digest: 6659078cf2ee9a4cfbd358257452ef27980a49060766fe128df2935743a93140
+    home: https://github.com/bitnami/charts/tree/master/bitnami/mongodb
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    - cluster
+    - replicaset
+    - replication
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    - https://mongodb.org
+    urls:
+    - https://monipenny03.github.io/flux-helm/mongodb-10.7.0.tgz
+    version: 10.7.0
+generated: "2022-05-18T15:49:08.273800915Z"
